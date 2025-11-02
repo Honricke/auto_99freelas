@@ -1,7 +1,7 @@
 import { connect, PageWithCursor } from "puppeteer-real-browser";
 import { Browser, ElementHandle } from "rebrowser-puppeteer-core";
 import { readFile, writeFile } from "fs/promises";
-import { send_message } from "../node_bot/socket";
+import { send_message } from "./socket";
 import { EOL as line_break } from "os";
 
 type DataType = {
