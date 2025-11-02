@@ -149,7 +149,8 @@ export class Freelas {
       .locator(".info-usuario-nome")
       .map((button) => button.textContent)
       .wait();
-    const first_name = client_name.split(" ")[0].trim();
+      
+    const first_name = client_name?.split(" ")[0].trim() ?? "";
 
     //------ FLUXO PARA PROPOSTA
     if (this.data.data.type == "proposta") {
@@ -162,6 +163,7 @@ export class Freelas {
 
       send_message("Preenchendo dados...", this.data.id);
       await this.fill_form(formated_message);
+      send_message("✅ Proposta enviada com sucesso ✅", this.data.id);
 
       //------ FLUXO PARA PERGUNTAS
     } else if (this.data.data.type == "pergunta") {
@@ -175,6 +177,8 @@ export class Freelas {
 
       send_message("Preenchendo dados...", this.data.id);
       await this.fill_form(formated_message);
+
+      send_message("✅ Pergunta enviada com sucesso ✅", this.data.id);
     }
 
     await this.browser.close();
