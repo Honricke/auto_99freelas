@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Atualização de aplicativo para páginas de 16kb",
+    "link": "https://www.99freelas.com.br/project/atualizacao-de-aplicativo-para-paginas-de-16kb-701069?fs=t",
+    "description": "Preciso fazer a atualização de um aplicativo meu para o novo formato de página de 16kb (nova atualização da Play Store) e realizar alguns pequenos ajustes no aplicativo para essa nova publicação.",
+    "information": "Publicado: 06:24 02/11\nPassou: 5 minuto(s)",
+    "client": "Cliente: \n\n\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t(8\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t avaliações)"
+  },
+  {
+    "title": "Especialista em sistema P2P de netplay: UDP hole punching e NAT traversal",
+    "link": "https://www.99freelas.com.br/project/especialista-em-sistema-p2p-de-netplay-udp-hole-punching-e-nat-traversal-701068?fs=t",
+    "description": "Estou desenvolvendo um sistema de netplay P2P para emuladores, semelhante ao Fightcade2, e preciso de um profissional experiente para ajudar na configuração de um servidor de rendezvous e na implementação do UDP hole punching. Meus scripts em Python estão funcionais localmente, mas estou enfrentando desafios significativos com a conectividade online.Áreas-chave de dificuldade incluem:- Expor corretamente a porta UDP para a internet.- Conseguir o hole punching entre dois jogadores localizados em redes diferentes.- Garantir a troca direta de dados entre os clientes, utilizando o servidor intermediário apenas para descoberta (funcionalidade STUN/rendezvous).O candidato ideal terá forte expertise em programação de redes, sockets UDP, técnicas de NAT traversal e netcode de jogos. Posso fornecer os scripts Python existentes e explicações detalhadas sobre os problemas atuais.Para referência, o projeto é baseado em um diretório do GitHub: https://github.com/Zansword/fightcade-fbneo-overclock/releases. O código fornecido compila facilmente com o Visual Studio Code e opera corretamente em um ambiente local.Exemplo de configuração local:player1 Game=kof2002 ip=127.0.0.1 My Port=7000 Partner Port=7001 delay=1player2 Game=kof2002 ip=127.0.0.1 My Port=7001 Partner Port=7000 delay=1O problema surge ao tentar conexões online, conforme observado em rastros de rede:source destination protocol length info192.168.0.100 177.200.34.103 UDP 47 8001 -> 8000 Len=5Estou procurando alguém que possa diagnosticar e resolver esses desafios de rede para permitir conexões P2P robustas para o sistema de netplay do emulador.",
+    "information": "Publicado: 06:22 02/11\nPassou: 7 minuto(s)",
+    "client": "Cliente: \n\n\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t(1\n\t\t\t\t\t\t\t\t\t\t\t\t\t avaliação)"
+  },
+  {
+    "title": "Criação de marketplace multi-vendor de itens de jogos",
+    "link": "https://www.99freelas.com.br/project/criacao-de-marketplace-multi-vendor-de-itens-de-jogos-701075?fs=t",
+    "description": "O site tem o objetivo de fazer uma mediação automática de venda de itens de jogos, proporcionando segurança e privacidade aos usuários.• Anúncio único (sem estoque)• Depósito via PIX• Verificação de conta (para iniciar vendas)• Perguntas no anúncio• Chat dentro do pedido• Disputa• Saque• Etc...",
+    "information": "Publicado: 01:24 02/11\nPassou: 5 hora(s)",
+    "client": "Cliente: \n\n\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t(2\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t avaliações)"
+  },
+  {
+    "title": "Criação de Marketplace Multi-Vendor de Items de Jogos",
+    "link": "https://www.99freelas.com.br/project/criacao-de-marketplace-multi-vendor-de-items-de-jogos-701075?fs=t",
+    "description": "O site tem o objetivo de fazer uma mediação automatica de venda de itens de jogos, dando segurança e privacidade aos usuarios.- Anuncio único (Sem estoque)- Deposito via PIX- Verificação de conta (Para iniciar vendas)- Perguntas no anuncio- Chat dentro do pedido- Disputa- Saque- Painel Administrativo separado.- Etc...",
+    "information": "Publicado: 01:24 02/11\nPassou: 4 hora(s)",
+    "client": "Cliente: \n\n\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t(2\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t avaliações)"
+  },
+  {
+    "title": "Especialista em bling / mkt place",
+    "link": "https://www.99freelas.com.br/project/especialista-em-bling-mkt-place-701065?fs=t",
+    "description": "Preciso exportar meus produtos do bling para a amazon, mercado livre, beleza na web e shopee; porém, ao exportar dá erro de categoria. Não sei resolver.Os produtos já existem no bling, não to conseguindo exportar.",
+    "information": "Publicado: 23:29 01/11\nPassou: 4 hora(s)",
+    "client": "Cliente: \n\n\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t(5\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t avaliações)"
+  }
+]
