@@ -1,6 +1,6 @@
 import { DefaultEventsMap, Server, Socket } from "socket.io";
 import http from "http";
-import { Freelas } from "../node_bot/quote";
+import { Freelas } from "./quote";
 
 const server = http.createServer();
 const io = new Server(server, { cors: { origin: "*" } });
