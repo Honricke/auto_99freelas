@@ -181,6 +181,8 @@ export class Freelas {
       send_message("✅ Pergunta enviada com sucesso ✅", this.data.id);
     }
 
+    await this.delay(2000)
+
     await this.browser.close();
   }
 

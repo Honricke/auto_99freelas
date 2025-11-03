@@ -30,6 +30,7 @@ def scrap_projects(categoria, telebot):
             desc_tag = project.select_one(".description")
             datetime_tag = project.select_one("b.datetime")
             client_tag = project.select_one(".client")
+            quotes_tag = project.select_one(".information")
 
             title = title_tag.text.strip() if title_tag else ""
             client = client_tag.text.strip() if client_tag else ""
@@ -37,6 +38,13 @@ def scrap_projects(categoria, telebot):
                 f"https://www.99freelas.com.br{title_tag['href']}" if title_tag else ""
             )
             desc = desc_tag.text.strip() if desc_tag else ""
+            quotes = quotes_tag.text.strip() if quotes_tag else ""
+
+            partes = quotes.split("Propostas:", 1)
+            parsed_info = ""
+
+            if len(partes) > 1:
+                parsed_info = "Propostas:" + partes[1]
 
             # Pega as informações
 
@@ -69,7 +77,7 @@ def scrap_projects(categoria, telebot):
                 restante_diff = format_time_difference(datetime_tag["cp-datetime"])
                 restante_text = f"Passou: {restante_diff}"
 
-            information = f"{published_text}\n{restante_text}"
+            information = f"{published_text}\n{restante_text}\n{parsed_info.strip()}"
 
             # Se já vimos esse projeto antes, para o scraping
             if any(p["link"] == link for p in last_projects):
@@ -101,7 +109,7 @@ def scrap_projects(categoria, telebot):
 
 
 def clean_text(text):
-    return text.replace("\t", " ").replace("  ", " ").strip()
+    return text.replace("\t", "").replace("  ", " ").replace(" |", "").strip()
 
 
 def get_projects(current_page, categoria):
