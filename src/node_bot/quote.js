@@ -113,13 +113,14 @@ class Freelas {
             .locator(".info-usuario-nome")
             .map((button) => button.textContent)
             .wait();
-        const first_name = client_name.split(" ")[0].trim();
+        const first_name = client_name?.split(" ")[0].trim() ?? "";
         //------ FLUXO PARA PROPOSTA
         if (this.data.data.type == "proposta") {
             const formated_message = this.format_message(first_name, this.data.data.pattern);
             await this.waitClickRedirect("a ::-p-text(Enviar proposta)");
             (0, socket_1.send_message)("Preenchendo dados...", this.data.id);
             await this.fill_form(formated_message);
+            (0, socket_1.send_message)("✅ Proposta enviada com sucesso ✅", this.data.id);
             //------ FLUXO PARA PERGUNTAS
         }
         else if (this.data.data.type == "pergunta") {
@@ -127,7 +128,9 @@ class Freelas {
             await this.waitClickRedirect("a ::-p-text(Faça uma pergunta)");
             (0, socket_1.send_message)("Preenchendo dados...", this.data.id);
             await this.fill_form(formated_message);
+            (0, socket_1.send_message)("✅ Pergunta enviada com sucesso ✅", this.data.id);
         }
+        await this.delay(2000);
         await this.browser.close();
     }
     static async start(data) {
